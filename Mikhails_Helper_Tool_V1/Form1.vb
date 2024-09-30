@@ -1524,6 +1524,15 @@ Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+        Dim myApp As Process() = Process.GetProcessesByName(Process.GetCurrentProcess.ProcessName)
+        For Each app In myApp
+            If app.Id <> Process.GetCurrentProcess.Id Then
+                With app
+                    .CloseMainWindow()
+                End With
+            End If
+        Next
+
 
         NotifyIcon1.Visible = True
 
@@ -1866,7 +1875,7 @@ Public Class Form1
     End Sub
 
     Private Sub WORKHOURSPERMONTHToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles WORKHOURSPERMONTHToolStripMenuItem.Click
-        System.Diagnostics.Process.Start("https://www.miraclesalad.com/webtools/work_hours_per_month.php")
+        System.Diagnostics.Process.Start("https://www.calendar-12.com/working_days/2024")
 
     End Sub
 
@@ -1916,7 +1925,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub ADMINRIGHTSToolStripMenuItem_Click_2(sender As Object, e As EventArgs) Handles ADMINRIGHTSToolStripMenuItem.Click
+    Private Sub ADMINRIGHTSToolStripMenuItem_Click_2(sender As Object, e As EventArgs)
         System.Diagnostics.Process.Start("http://intranet.att.com/elrws/index.php")
 
 
@@ -2262,6 +2271,15 @@ Public Class Form1
         Me.Show()
         Me.WindowState = FormWindowState.Normal
         NotifyIcon1.Visible = False
+    End Sub
+
+
+    Private Sub STRTUTORIALSTIMEREPORTINGToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles STRTUTORIALSTIMEREPORTINGToolStripMenuItem1.Click
+        System.Diagnostics.Process.Start("https://wiki.web.att.com/pages/viewpage.action?pageId=2178388367")
+    End Sub
+
+    Private Sub ITRACKTROUBLETICKETToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITRACKTROUBLETICKETToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://itrack.web.att.com/secure/CreateIssue.jspa?issuetype=17&pid=51253")
     End Sub
 End Class
 
