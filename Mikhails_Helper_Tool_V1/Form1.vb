@@ -22,6 +22,9 @@ Imports Microsoft.Office.Core
 Imports System.Diagnostics
 Imports System.Net
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Tab
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar
+
+
 
 
 
@@ -1860,7 +1863,7 @@ Public Class Form1
         System.Diagnostics.Process.Start("https://att.sharepoint.com/sites/CMAC/SitePages/Onboarding.aspx")
     End Sub
 
-    Private Sub WEBPHONEToolStripMenuItem_Click_2(sender As Object, e As EventArgs) Handles WEBPHONEToolStripMenuItem.Click
+    Private Sub WEBPHONEToolStripMenuItem_Click_2(sender As Object, e As EventArgs)
         System.Diagnostics.Process.Start("http://webphone.att.com/")
 
     End Sub
@@ -2280,6 +2283,68 @@ Public Class Form1
 
     Private Sub ITRACKTROUBLETICKETToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ITRACKTROUBLETICKETToolStripMenuItem.Click
         System.Diagnostics.Process.Start("https://itrack.web.att.com/secure/CreateIssue.jspa?issuetype=17&pid=51253")
+    End Sub
+
+    Private Sub MenuStrip3_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip3.ItemClicked
+
+    End Sub
+
+    Private Sub EnabledToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EnabledToolStripMenuItem.Click
+        'Dim startupPath As String = Environment.GetFolderPath(Environment.SpecialFolder.Startup)
+        'Dim shortcutPath As String = Path.Combine(startupPath, "Mikhails_Helper_Tool_V1.lnk")
+        MessageBox.Show("Setting this app to start with Windows")
+        SetStartup()
+
+    End Sub
+
+    Private Sub DisabledToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DisabledToolStripMenuItem.Click
+        MessageBox.Show("Removing this app from starting with Windows")
+        RemoveStartup()
+    End Sub
+
+    Private Sub SetStartup()
+        Try
+            Dim rk As RegistryKey = Registry.CurrentUser.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True)
+            rk.SetValue("MikhailsHelperTool", Application.ExecutablePath)
+        Catch ex As Exception
+            MessageBox.Show("Failed to set startup: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub RemoveStartup()
+        Try
+            Dim rk As RegistryKey = Registry.CurrentUser.OpenSubKey("SOFTWARE\Microsoft\Windows\CurrentVersion\Run", True)
+            rk.DeleteValue("MikhailsHelperTool", False)
+        Catch ex As Exception
+            MessageBox.Show("Failed to remove startup: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub MYWEPHONEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MYWEPHONEToolStripMenuItem.Click
+
+        Dim loggedUser As String
+        loggedUser = Environment.UserName
+
+        System.Diagnostics.Process.Start("https://webphone.att.com/cgi-bin/webphones.pl?id=" + loggedUser)
+    End Sub
+
+    Private Sub SEARCHWEBPHONEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SEARCHWEBPHONEToolStripMenuItem.Click
+        Form7.Show()
+    End Sub
+
+    Private Sub MYTEAMWEBPHONEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MYTEAMWEBPHONEToolStripMenuItem.Click
+
+        Dim loggedUser As String
+        loggedUser = Environment.UserName
+        System.Diagnostics.Process.Start("https://webphone.att.com/cgi-bin/orglist.pl?id=" + loggedUser)
+    End Sub
+
+    Private Sub DONSTEAMToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DONSTEAMToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://webphone.att.com/cgi-bin/orglist.pl?id=dw5119")
+    End Sub
+
+    Private Sub WORKSTATIONTICKETSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WORKSTATIONTICKETSToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://forms.office.com/pages/responsepage.aspx?id=HNdB57bGsEeAPA87MrB1Vri4hfA_j1ZKlXPagmypALNUMlA2MDMxWThYNEs4R09GNTFaTFNPOExLQy4u")
     End Sub
 End Class
 
