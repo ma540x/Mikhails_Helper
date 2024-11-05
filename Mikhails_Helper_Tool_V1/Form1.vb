@@ -1976,7 +1976,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub KOUCricketToolStripMenuItem_Click_2(sender As Object, e As EventArgs) Handles KOUCricketToolStripMenuItem.Click
+    Private Sub KOUCricketToolStripMenuItem_Click_2(sender As Object, e As EventArgs)
         System.Diagnostics.Process.Start("https://www.e-access.att.com/cou/#/KOU/ack")
 
     End Sub
@@ -2345,6 +2345,23 @@ Public Class Form1
 
     Private Sub WORKSTATIONTICKETSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles WORKSTATIONTICKETSToolStripMenuItem.Click
         System.Diagnostics.Process.Start("https://forms.office.com/pages/responsepage.aspx?id=HNdB57bGsEeAPA87MrB1Vri4hfA_j1ZKlXPagmypALNUMlA2MDMxWThYNEs4R09GNTFaTFNPOExLQy4u")
+    End Sub
+
+    Private Sub HIGHFIVEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HIGHFIVEToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://applause.web.att.com/highfive/default.aspx")
+    End Sub
+
+    Private Sub KOUToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KOUToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://www.e-access.att.com/cou/#/KOU/ack")
+    End Sub
+
+    Private Sub CATOAMPToolStripMenuItem_Click(sender As Object, e As EventArgs)
+        System.Diagnostics.Process.Start("https://att.levelaccess.net/index.php")
+    End Sub
+
+    Private Sub ToolStripMenuItem8_Click_2(sender As Object, e As EventArgs) Handles ToolStripMenuItem8.Click
+
+        System.Diagnostics.Process.Start("https://att.levelaccess.net/index.php")
     End Sub
 End Class
 
