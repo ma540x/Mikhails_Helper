@@ -32,6 +32,9 @@ Partial Class Form7
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -41,34 +44,34 @@ Partial Class Form7
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(212, 43)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Please Enter Search strings below to search WEBPHONE"
+        Me.Label1.Text = "Please enter Search strings below to search WEBPHONE"
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(16, 82)
+        Me.TextBox1.Location = New System.Drawing.Point(15, 136)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 1
+        Me.TextBox1.TabIndex = 3
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(16, 133)
+        Me.TextBox2.Location = New System.Drawing.Point(15, 188)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 3
+        Me.TextBox2.TabIndex = 5
         '
         'TextBox3
         '
-        Me.TextBox3.Location = New System.Drawing.Point(16, 180)
+        Me.TextBox3.Location = New System.Drawing.Point(15, 239)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 5
+        Me.TextBox3.TabIndex = 7
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
-        Me.Label2.Location = New System.Drawing.Point(34, 61)
+        Me.Label2.Location = New System.Drawing.Point(33, 117)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 18)
         Me.Label2.TabIndex = 4
@@ -78,7 +81,7 @@ Partial Class Form7
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
-        Me.Label3.Location = New System.Drawing.Point(17, 114)
+        Me.Label3.Location = New System.Drawing.Point(16, 169)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(99, 18)
         Me.Label3.TabIndex = 5
@@ -88,7 +91,7 @@ Partial Class Form7
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
-        Me.Label4.Location = New System.Drawing.Point(23, 161)
+        Me.Label4.Location = New System.Drawing.Point(22, 220)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(93, 18)
         Me.Label4.TabIndex = 6
@@ -97,39 +100,69 @@ Partial Class Form7
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(136, 82)
+        Me.Button1.Location = New System.Drawing.Point(135, 136)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(70, 20)
-        Me.Button1.TabIndex = 2
+        Me.Button1.TabIndex = 4
         Me.Button1.Text = "SEARCH"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(136, 133)
+        Me.Button2.Location = New System.Drawing.Point(135, 188)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(70, 20)
-        Me.Button2.TabIndex = 4
+        Me.Button2.TabIndex = 6
         Me.Button2.Text = "SEARCH"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(136, 180)
+        Me.Button3.Location = New System.Drawing.Point(135, 239)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(70, 20)
-        Me.Button3.TabIndex = 6
+        Me.Button3.TabIndex = 8
         Me.Button3.Text = "SEARCH"
         Me.Button3.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(135, 87)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(70, 20)
+        Me.Button4.TabIndex = 2
+        Me.Button4.Text = "SEARCH"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
+        Me.Label5.Location = New System.Drawing.Point(33, 67)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(57, 18)
+        Me.Label5.TabIndex = 9
+        Me.Label5.Text = "EMAIL"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(15, 87)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox4.TabIndex = 1
         '
         'Form7
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(216, 208)
+        Me.ClientSize = New System.Drawing.Size(216, 267)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.TextBox4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -160,4 +193,7 @@ Partial Class Form7
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Label5 As Label
+    Friend WithEvents TextBox4 As TextBox
 End Class

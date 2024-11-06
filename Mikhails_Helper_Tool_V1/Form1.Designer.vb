@@ -135,10 +135,14 @@ Partial Class Form1
         Me.ToolStripSeparator30 = New System.Windows.Forms.ToolStripSeparator()
         Me.FIELDGLASSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator31 = New System.Windows.Forms.ToolStripSeparator()
+        Me.HIGHFIVEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator136 = New System.Windows.Forms.ToolStripSeparator()
         Me.HRONESTOPToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator32 = New System.Windows.Forms.ToolStripSeparator()
         Me.INFORTIMEOFFToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator33 = New System.Windows.Forms.ToolStripSeparator()
+        Me.KOUToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator137 = New System.Windows.Forms.ToolStripSeparator()
         Me.MOBILEIRONMYOWNToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator34 = New System.Windows.Forms.ToolStripSeparator()
         Me.ONBOARDINGRESOURCESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -170,6 +174,8 @@ Partial Class Form1
         Me.ToolStripSeparator38 = New System.Windows.Forms.ToolStripSeparator()
         Me.ATTINSIDERToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator41 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripMenuItem8 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator138 = New System.Windows.Forms.ToolStripSeparator()
         Me.CATOWEBSITEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator86 = New System.Windows.Forms.ToolStripSeparator()
         Me.ESIMWAITINGCONFIGURATIONToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -342,12 +348,17 @@ Partial Class Form1
         Me.DisabledToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator70 = New System.Windows.Forms.ToolStripSeparator()
         Me.VersionNumberToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.HIGHFIVEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator136 = New System.Windows.Forms.ToolStripSeparator()
-        Me.KOUToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator137 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripMenuItem8 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator138 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ENDOFLIFEINFODEVICESToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator56 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SAMSUNGToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PIXELSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator139 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ANDROIDOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.APPLEIOSToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator140 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripSeparator141 = New System.Windows.Forms.ToolStripSeparator()
+        Me.IPHONEToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator142 = New System.Windows.Forms.ToolStripSeparator()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip3.SuspendLayout()
@@ -653,8 +664,7 @@ Partial Class Form1
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ASKATTToolStripMenuItem, Me.ToolStripSeparator117, Me.ToolStripMenuItem4, Me.ToolStripSeparator8, Me.AUTOMATIONToolStripMenuItem, Me.ToolStripSeparator7, Me.ToolStripMenuItem6, Me.ToolStripSeparator107, Me.FTELINKSToolStripMenuItem, Me.ToolStripSeparator1, Me.ToolStripMenuItem5, Me.ToolStripSeparator4, Me.ToolStripMenuItem2, Me.ToolStripSeparator2, Me.INVENTORYToolStripMenuItem, Me.ToolStripSeparator42, Me.ToolStripMenuItem3, Me.ToolStripSeparator110, Me.STATUSToolStripMenuItem1, Me.ToolStripSeparator3, Me.SUPPORTSITESToolStripMenuItem, Me.ToolStripSeparator126, Me.TESTINGTOOLSToolStripMenuItem, Me.ToolStripSeparator5, Me.WEBPHONEToolStripMenuItem1, Me.ToolStripSeparator132, Me.ABOUTToolStripMenuItem, Me.ToolStripSeparator6, Me.EXITToolStripMenuItem})
         Me.ContextMenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.OwnerItem = Me.ToolStripMenuItem1
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(215, 470)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(215, 448)
         '
         'ASKATTToolStripMenuItem
         '
@@ -1244,6 +1254,20 @@ Partial Class Form1
         Me.ToolStripSeparator31.Name = "ToolStripSeparator31"
         Me.ToolStripSeparator31.Size = New System.Drawing.Size(356, 6)
         '
+        'HIGHFIVEToolStripMenuItem
+        '
+        Me.HIGHFIVEToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.HIGHFIVEToolStripMenuItem.Image = CType(resources.GetObject("HIGHFIVEToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.HIGHFIVEToolStripMenuItem.Name = "HIGHFIVEToolStripMenuItem"
+        Me.HIGHFIVEToolStripMenuItem.Size = New System.Drawing.Size(359, 22)
+        Me.HIGHFIVEToolStripMenuItem.Text = "HIGH FIVE"
+        '
+        'ToolStripSeparator136
+        '
+        Me.ToolStripSeparator136.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator136.Name = "ToolStripSeparator136"
+        Me.ToolStripSeparator136.Size = New System.Drawing.Size(356, 6)
+        '
         'HRONESTOPToolStripMenuItem
         '
         Me.HRONESTOPToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
@@ -1271,6 +1295,20 @@ Partial Class Form1
         Me.ToolStripSeparator33.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator33.Name = "ToolStripSeparator33"
         Me.ToolStripSeparator33.Size = New System.Drawing.Size(356, 6)
+        '
+        'KOUToolStripMenuItem
+        '
+        Me.KOUToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.KOUToolStripMenuItem.Image = CType(resources.GetObject("KOUToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.KOUToolStripMenuItem.Name = "KOUToolStripMenuItem"
+        Me.KOUToolStripMenuItem.Size = New System.Drawing.Size(359, 22)
+        Me.KOUToolStripMenuItem.Text = "KOU (CRICKET)"
+        '
+        'ToolStripSeparator137
+        '
+        Me.ToolStripSeparator137.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator137.Name = "ToolStripSeparator137"
+        Me.ToolStripSeparator137.Size = New System.Drawing.Size(356, 6)
         '
         'MOBILEIRONMYOWNToolStripMenuItem
         '
@@ -1430,7 +1468,7 @@ Partial Class Form1
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.BackColor = System.Drawing.Color.Plum
-        Me.ToolStripMenuItem5.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ATTSHAREPOINTToolStripMenuItem, Me.ToolStripSeparator100, Me.OFFICIALATTHOLIDAYSToolStripMenuItem, Me.ToolStripSeparator96, Me.ATTABBREVIATIONSToolStripMenuItem, Me.ToolStripSeparator38, Me.ATTINSIDERToolStripMenuItem, Me.ToolStripSeparator41, Me.ToolStripMenuItem8, Me.ToolStripSeparator138, Me.CATOWEBSITEToolStripMenuItem, Me.ToolStripSeparator86, Me.ESIMWAITINGCONFIGURATIONToolStripMenuItem, Me.ToolStripSeparator43, Me.ATTFOODTRUCKSToolStripMenuItem, Me.ToolStripSeparator103, Me.MOOSEToolStripMenuItem, Me.ToolStripSeparator44, Me.QECMACHOMEToolStripMenuItem, Me.ToolStripSeparator45, Me.QEINVENTORYGUIDELINESToolStripMenuItem, Me.ToolStripSeparator46, Me.SOFTWARECENTERToolStripMenuItem, Me.ToolStripSeparator50, Me.STRTUTORIALSTIMEREPORTINGToolStripMenuItem1, Me.ToolStripSeparator115, Me.TESTERONBOARDINGToolStripMenuItem})
+        Me.ToolStripMenuItem5.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ATTSHAREPOINTToolStripMenuItem, Me.ToolStripSeparator100, Me.OFFICIALATTHOLIDAYSToolStripMenuItem, Me.ToolStripSeparator96, Me.ATTABBREVIATIONSToolStripMenuItem, Me.ToolStripSeparator38, Me.ATTINSIDERToolStripMenuItem, Me.ToolStripSeparator41, Me.ToolStripMenuItem8, Me.ToolStripSeparator138, Me.CATOWEBSITEToolStripMenuItem, Me.ToolStripSeparator86, Me.ENDOFLIFEINFODEVICESToolStripMenuItem, Me.ToolStripSeparator56, Me.ESIMWAITINGCONFIGURATIONToolStripMenuItem, Me.ToolStripSeparator43, Me.ATTFOODTRUCKSToolStripMenuItem, Me.ToolStripSeparator103, Me.MOOSEToolStripMenuItem, Me.ToolStripSeparator44, Me.QECMACHOMEToolStripMenuItem, Me.ToolStripSeparator45, Me.QEINVENTORYGUIDELINESToolStripMenuItem, Me.ToolStripSeparator46, Me.SOFTWARECENTERToolStripMenuItem, Me.ToolStripSeparator50, Me.STRTUTORIALSTIMEREPORTINGToolStripMenuItem1, Me.ToolStripSeparator115, Me.TESTERONBOARDINGToolStripMenuItem})
         Me.ToolStripMenuItem5.Font = New System.Drawing.Font("Georgia Pro Semibold", 10.0!, System.Drawing.FontStyle.Bold)
         Me.ToolStripMenuItem5.ForeColor = System.Drawing.Color.Black
         Me.ToolStripMenuItem5.Image = CType(resources.GetObject("ToolStripMenuItem5.Image"), System.Drawing.Image)
@@ -1495,6 +1533,20 @@ Partial Class Form1
         Me.ToolStripSeparator41.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator41.Name = "ToolStripSeparator41"
         Me.ToolStripSeparator41.Size = New System.Drawing.Size(330, 6)
+        '
+        'ToolStripMenuItem8
+        '
+        Me.ToolStripMenuItem8.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripMenuItem8.Image = CType(resources.GetObject("ToolStripMenuItem8.Image"), System.Drawing.Image)
+        Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
+        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(333, 22)
+        Me.ToolStripMenuItem8.Text = "CATO (AMP)"
+        '
+        'ToolStripSeparator138
+        '
+        Me.ToolStripSeparator138.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator138.Name = "ToolStripSeparator138"
+        Me.ToolStripSeparator138.Size = New System.Drawing.Size(330, 6)
         '
         'CATOWEBSITEToolStripMenuItem
         '
@@ -2801,47 +2853,84 @@ Partial Class Form1
         Me.VersionNumberToolStripMenuItem.Size = New System.Drawing.Size(204, 22)
         Me.VersionNumberToolStripMenuItem.Text = "About Mikhails Helper"
         '
-        'HIGHFIVEToolStripMenuItem
+        'ENDOFLIFEINFODEVICESToolStripMenuItem
         '
-        Me.HIGHFIVEToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.HIGHFIVEToolStripMenuItem.Image = CType(resources.GetObject("HIGHFIVEToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.HIGHFIVEToolStripMenuItem.Name = "HIGHFIVEToolStripMenuItem"
-        Me.HIGHFIVEToolStripMenuItem.Size = New System.Drawing.Size(359, 22)
-        Me.HIGHFIVEToolStripMenuItem.Text = "HIGH FIVE"
+        Me.ENDOFLIFEINFODEVICESToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ENDOFLIFEINFODEVICESToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.APPLEIOSToolStripMenuItem, Me.ToolStripSeparator139, Me.ANDROIDOSToolStripMenuItem, Me.ToolStripSeparator141, Me.IPHONEToolStripMenuItem, Me.ToolStripSeparator140, Me.PIXELSToolStripMenuItem, Me.ToolStripSeparator142, Me.SAMSUNGToolStripMenuItem})
+        Me.ENDOFLIFEINFODEVICESToolStripMenuItem.Image = CType(resources.GetObject("ENDOFLIFEINFODEVICESToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ENDOFLIFEINFODEVICESToolStripMenuItem.Name = "ENDOFLIFEINFODEVICESToolStripMenuItem"
+        Me.ENDOFLIFEINFODEVICESToolStripMenuItem.Size = New System.Drawing.Size(333, 22)
+        Me.ENDOFLIFEINFODEVICESToolStripMenuItem.Text = "END OF LIFE INFO (DEVICES)"
         '
-        'ToolStripSeparator136
+        'ToolStripSeparator56
         '
-        Me.ToolStripSeparator136.BackColor = System.Drawing.Color.LemonChiffon
-        Me.ToolStripSeparator136.Name = "ToolStripSeparator136"
-        Me.ToolStripSeparator136.Size = New System.Drawing.Size(356, 6)
+        Me.ToolStripSeparator56.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator56.Name = "ToolStripSeparator56"
+        Me.ToolStripSeparator56.Size = New System.Drawing.Size(330, 6)
         '
-        'KOUToolStripMenuItem
+        'SAMSUNGToolStripMenuItem
         '
-        Me.KOUToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.KOUToolStripMenuItem.Image = CType(resources.GetObject("KOUToolStripMenuItem.Image"), System.Drawing.Image)
-        Me.KOUToolStripMenuItem.Name = "KOUToolStripMenuItem"
-        Me.KOUToolStripMenuItem.Size = New System.Drawing.Size(359, 22)
-        Me.KOUToolStripMenuItem.Text = "KOU (CRICKET)"
+        Me.SAMSUNGToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.SAMSUNGToolStripMenuItem.Image = CType(resources.GetObject("SAMSUNGToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.SAMSUNGToolStripMenuItem.Name = "SAMSUNGToolStripMenuItem"
+        Me.SAMSUNGToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SAMSUNGToolStripMenuItem.Text = "SAMSUNG"
         '
-        'ToolStripSeparator137
+        'PIXELSToolStripMenuItem
         '
-        Me.ToolStripSeparator137.BackColor = System.Drawing.Color.LemonChiffon
-        Me.ToolStripSeparator137.Name = "ToolStripSeparator137"
-        Me.ToolStripSeparator137.Size = New System.Drawing.Size(356, 6)
+        Me.PIXELSToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.PIXELSToolStripMenuItem.Image = CType(resources.GetObject("PIXELSToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.PIXELSToolStripMenuItem.Name = "PIXELSToolStripMenuItem"
+        Me.PIXELSToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PIXELSToolStripMenuItem.Text = "PIXELS"
         '
-        'ToolStripMenuItem8
+        'ToolStripSeparator139
         '
-        Me.ToolStripMenuItem8.BackColor = System.Drawing.Color.LemonChiffon
-        Me.ToolStripMenuItem8.Image = CType(resources.GetObject("ToolStripMenuItem8.Image"), System.Drawing.Image)
-        Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
-        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(333, 22)
-        Me.ToolStripMenuItem8.Text = "CATO (AMP)"
+        Me.ToolStripSeparator139.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator139.Name = "ToolStripSeparator139"
+        Me.ToolStripSeparator139.Size = New System.Drawing.Size(177, 6)
         '
-        'ToolStripSeparator138
+        'ANDROIDOSToolStripMenuItem
         '
-        Me.ToolStripSeparator138.BackColor = System.Drawing.Color.LemonChiffon
-        Me.ToolStripSeparator138.Name = "ToolStripSeparator138"
-        Me.ToolStripSeparator138.Size = New System.Drawing.Size(330, 6)
+        Me.ANDROIDOSToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ANDROIDOSToolStripMenuItem.Image = CType(resources.GetObject("ANDROIDOSToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.ANDROIDOSToolStripMenuItem.Name = "ANDROIDOSToolStripMenuItem"
+        Me.ANDROIDOSToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ANDROIDOSToolStripMenuItem.Text = "ANDROID OS"
+        '
+        'APPLEIOSToolStripMenuItem
+        '
+        Me.APPLEIOSToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.APPLEIOSToolStripMenuItem.Image = CType(resources.GetObject("APPLEIOSToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.APPLEIOSToolStripMenuItem.Name = "APPLEIOSToolStripMenuItem"
+        Me.APPLEIOSToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.APPLEIOSToolStripMenuItem.Text = "APPLE IOS"
+        '
+        'ToolStripSeparator140
+        '
+        Me.ToolStripSeparator140.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator140.Name = "ToolStripSeparator140"
+        Me.ToolStripSeparator140.Size = New System.Drawing.Size(177, 6)
+        '
+        'ToolStripSeparator141
+        '
+        Me.ToolStripSeparator141.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator141.Name = "ToolStripSeparator141"
+        Me.ToolStripSeparator141.Size = New System.Drawing.Size(177, 6)
+        '
+        'IPHONEToolStripMenuItem
+        '
+        Me.IPHONEToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
+        Me.IPHONEToolStripMenuItem.Image = CType(resources.GetObject("IPHONEToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.IPHONEToolStripMenuItem.Name = "IPHONEToolStripMenuItem"
+        Me.IPHONEToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IPHONEToolStripMenuItem.Text = "IPHONE"
+        '
+        'ToolStripSeparator142
+        '
+        Me.ToolStripSeparator142.BackColor = System.Drawing.Color.LemonChiffon
+        Me.ToolStripSeparator142.Name = "ToolStripSeparator142"
+        Me.ToolStripSeparator142.Size = New System.Drawing.Size(177, 6)
         '
         'Form1
         '
@@ -3222,4 +3311,15 @@ Partial Class Form1
     Friend WithEvents ToolStripSeparator137 As ToolStripSeparator
     Friend WithEvents ToolStripMenuItem8 As ToolStripMenuItem
     Friend WithEvents ToolStripSeparator138 As ToolStripSeparator
+    Friend WithEvents ENDOFLIFEINFODEVICESToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator56 As ToolStripSeparator
+    Friend WithEvents SAMSUNGToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator139 As ToolStripSeparator
+    Friend WithEvents PIXELSToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ANDROIDOSToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents APPLEIOSToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ToolStripSeparator140 As ToolStripSeparator
+    Friend WithEvents ToolStripSeparator141 As ToolStripSeparator
+    Friend WithEvents ToolStripSeparator142 As ToolStripSeparator
+    Friend WithEvents IPHONEToolStripMenuItem As ToolStripMenuItem
 End Class

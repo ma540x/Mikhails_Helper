@@ -25,4 +25,15 @@
         End If
         TextBox3.Text = ""
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        If (TextBox4.Text = "") Then
+            MessageBox.Show("Please enter email address searching")
+        Else
+            System.Diagnostics.Process.Start("https://webphone.att.com/cgi-bin/webphone.pl?par=pmail%3D" + TextBox4.Text + "*%7Cpmail%3D" + TextBox4.Text + "&type=&src_pg=home")
+        End If
+        TextBox4.Text = ""
+    End Sub
+
+
 End Class

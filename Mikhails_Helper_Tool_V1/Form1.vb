@@ -2363,5 +2363,30 @@ Public Class Form1
 
         System.Diagnostics.Process.Start("https://att.levelaccess.net/index.php")
     End Sub
+
+    Private Sub ENDOFLIFEINFODEVICESToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ENDOFLIFEINFODEVICESToolStripMenuItem.Click
+
+
+    End Sub
+
+    Private Sub APPLEIOSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles APPLEIOSToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://endoflife.date/ios")
+    End Sub
+
+    Private Sub ANDROIDOSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ANDROIDOSToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://endoflife.date/android")
+    End Sub
+
+    Private Sub PIXELSToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles PIXELSToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://endoflife.date/pixel")
+    End Sub
+
+    Private Sub SAMSUNGToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SAMSUNGToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://endoflife.date/samsung-mobile")
+    End Sub
+
+    Private Sub IPHONEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IPHONEToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://endoflife.date/iphone")
+    End Sub
 End Class
 
