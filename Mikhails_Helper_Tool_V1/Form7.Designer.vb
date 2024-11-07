@@ -39,7 +39,7 @@ Partial Class Form7
         '
         'Label1
         '
-        Me.Label1.Font = New System.Drawing.Font("Rockwell Nova", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(12, 13)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(212, 43)
@@ -70,30 +70,30 @@ Partial Class Form7
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.5!, System.Drawing.FontStyle.Bold)
         Me.Label2.Location = New System.Drawing.Point(33, 117)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(65, 18)
+        Me.Label2.Size = New System.Drawing.Size(63, 16)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "ATTUID"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.5!, System.Drawing.FontStyle.Bold)
         Me.Label3.Location = New System.Drawing.Point(16, 169)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(99, 18)
+        Me.Label3.Size = New System.Drawing.Size(98, 16)
         Me.Label3.TabIndex = 5
         Me.Label3.Text = "FIRST NAME"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.5!, System.Drawing.FontStyle.Bold)
         Me.Label4.Location = New System.Drawing.Point(22, 220)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(93, 18)
+        Me.Label4.Size = New System.Drawing.Size(92, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "LAST NAME"
         '
@@ -140,10 +140,10 @@ Partial Class Form7
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Rockwell Nova", 9.5!, System.Drawing.FontStyle.Bold)
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.5!, System.Drawing.FontStyle.Bold)
         Me.Label5.Location = New System.Drawing.Point(33, 67)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(57, 18)
+        Me.Label5.Size = New System.Drawing.Size(51, 16)
         Me.Label5.TabIndex = 9
         Me.Label5.Text = "EMAIL"
         '
@@ -173,10 +173,12 @@ Partial Class Form7
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Form7"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "WEBPHONE SEARCH"
+        Me.Text = "WEBPHONE"
         Me.TopMost = True
         Me.ResumeLayout(False)
         Me.PerformLayout()
