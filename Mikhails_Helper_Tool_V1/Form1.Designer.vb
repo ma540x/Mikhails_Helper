@@ -664,8 +664,7 @@ Partial Class Form1
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ASKATTToolStripMenuItem, Me.ToolStripSeparator117, Me.ToolStripMenuItem4, Me.ToolStripSeparator8, Me.AUTOMATIONToolStripMenuItem, Me.ToolStripSeparator7, Me.ToolStripMenuItem6, Me.ToolStripSeparator107, Me.FTELINKSToolStripMenuItem, Me.ToolStripSeparator1, Me.ToolStripMenuItem5, Me.ToolStripSeparator4, Me.ToolStripMenuItem2, Me.ToolStripSeparator2, Me.INVENTORYToolStripMenuItem, Me.ToolStripSeparator42, Me.ToolStripMenuItem3, Me.ToolStripSeparator110, Me.STATUSToolStripMenuItem1, Me.ToolStripSeparator3, Me.SUPPORTSITESToolStripMenuItem, Me.ToolStripSeparator126, Me.TESTINGTOOLSToolStripMenuItem, Me.ToolStripSeparator5, Me.WEBPHONEToolStripMenuItem1, Me.ToolStripSeparator132, Me.ABOUTToolStripMenuItem, Me.ToolStripSeparator6, Me.EXITToolStripMenuItem})
         Me.ContextMenuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.OwnerItem = Me.ToolStripMenuItem1
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(215, 470)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(215, 448)
         '
         'ASKATTToolStripMenuItem
         '
@@ -674,7 +673,7 @@ Partial Class Form1
         Me.ASKATTToolStripMenuItem.Image = CType(resources.GetObject("ASKATTToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ASKATTToolStripMenuItem.Name = "ASKATTToolStripMenuItem"
         Me.ASKATTToolStripMenuItem.Size = New System.Drawing.Size(214, 24)
-        Me.ASKATTToolStripMenuItem.Text = "       ASK AT&&T"
+        Me.ASKATTToolStripMenuItem.Text = "        ASK AT&&T"
         Me.ASKATTToolStripMenuItem.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
         'ToolStripSeparator117
@@ -700,145 +699,145 @@ Partial Class Form1
         'AODACCESSTOZEPHYRITRACKToolStripMenuItem
         '
         Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.Image = CType(resources.GetObject("AODACCESSTOZEPHYRITRACKToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.Name = "AODACCESSTOZEPHYRITRACKToolStripMenuItem"
-        Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.AODACCESSTOZEPHYRITRACKToolStripMenuItem.Text = "AOD (ACCESS TO ZEPHYR/ITRACK)"
         '
         'ToolStripSeparator17
         '
         Me.ToolStripSeparator17.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator17.Name = "ToolStripSeparator17"
-        Me.ToolStripSeparator17.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator17.Size = New System.Drawing.Size(339, 6)
         '
         'ADMINRIGHTSTEMPToolStripMenuItem
         '
         Me.ADMINRIGHTSTEMPToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.ADMINRIGHTSTEMPToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ADMINRIGHTSTEMPToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.ADMINRIGHTSTEMPToolStripMenuItem.Image = CType(resources.GetObject("ADMINRIGHTSTEMPToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ADMINRIGHTSTEMPToolStripMenuItem.Name = "ADMINRIGHTSTEMPToolStripMenuItem"
-        Me.ADMINRIGHTSTEMPToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.ADMINRIGHTSTEMPToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.ADMINRIGHTSTEMPToolStripMenuItem.Text = "ADMIN RIGHTS (TEMP ONLY)"
         '
         'ToolStripSeparator125
         '
         Me.ToolStripSeparator125.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator125.Name = "ToolStripSeparator125"
-        Me.ToolStripSeparator125.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator125.Size = New System.Drawing.Size(339, 6)
         '
         'BUILDINGSECURITYCARDSACCESSToolStripMenuItem
         '
         Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Image = CType(resources.GetObject("BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Image"), System.Drawing.Image)
         Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Name = "BUILDINGSECURITYCARDSACCESSToolStripMenuItem"
-        Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.BUILDINGSECURITYCARDSACCESSToolStripMenuItem.Text = "BUILDING SECURITY (CARDS/ACCESS)"
         '
         'ToolStripSeparator18
         '
         Me.ToolStripSeparator18.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator18.Name = "ToolStripSeparator18"
-        Me.ToolStripSeparator18.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator18.Size = New System.Drawing.Size(339, 6)
         '
         'MYLOGINSToolStripMenuItem
         '
         Me.MYLOGINSToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.MYLOGINSToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MYLOGINSToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.MYLOGINSToolStripMenuItem.Image = CType(resources.GetObject("MYLOGINSToolStripMenuItem.Image"), System.Drawing.Image)
         Me.MYLOGINSToolStripMenuItem.Name = "MYLOGINSToolStripMenuItem"
-        Me.MYLOGINSToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.MYLOGINSToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.MYLOGINSToolStripMenuItem.Text = "MYLOGINS"
         '
         'ToolStripSeparator19
         '
         Me.ToolStripSeparator19.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator19.Name = "ToolStripSeparator19"
-        Me.ToolStripSeparator19.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator19.Size = New System.Drawing.Size(339, 6)
         '
         'PASSWORDRESETSToolStripMenuItem
         '
         Me.PASSWORDRESETSToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.PASSWORDRESETSToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PASSWORDRESETSToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.PASSWORDRESETSToolStripMenuItem.Image = CType(resources.GetObject("PASSWORDRESETSToolStripMenuItem.Image"), System.Drawing.Image)
         Me.PASSWORDRESETSToolStripMenuItem.Name = "PASSWORDRESETSToolStripMenuItem"
-        Me.PASSWORDRESETSToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.PASSWORDRESETSToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.PASSWORDRESETSToolStripMenuItem.Text = "PASSWORD RESETS"
         '
         'ToolStripSeparator94
         '
         Me.ToolStripSeparator94.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator94.Name = "ToolStripSeparator94"
-        Me.ToolStripSeparator94.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator94.Size = New System.Drawing.Size(339, 6)
         '
         'RSAToolStripMenuItem
         '
         Me.RSAToolStripMenuItem.BackColor = System.Drawing.Color.Khaki
-        Me.RSAToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RSAToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.RSAToolStripMenuItem.Image = CType(resources.GetObject("RSAToolStripMenuItem.Image"), System.Drawing.Image)
         Me.RSAToolStripMenuItem.Name = "RSAToolStripMenuItem"
-        Me.RSAToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.RSAToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.RSAToolStripMenuItem.Text = "RSA SECURID AUTHENTICATOR"
         '
         'ToolStripSeparator88
         '
         Me.ToolStripSeparator88.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator88.Name = "ToolStripSeparator88"
-        Me.ToolStripSeparator88.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator88.Size = New System.Drawing.Size(339, 6)
         '
         'SERVICEACTIVATIONORDERToolStripMenuItem
         '
         Me.SERVICEACTIVATIONORDERToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.SERVICEACTIVATIONORDERToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SERVICEACTIVATIONORDERToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.SERVICEACTIVATIONORDERToolStripMenuItem.Image = CType(resources.GetObject("SERVICEACTIVATIONORDERToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SERVICEACTIVATIONORDERToolStripMenuItem.Name = "SERVICEACTIVATIONORDERToolStripMenuItem"
-        Me.SERVICEACTIVATIONORDERToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.SERVICEACTIVATIONORDERToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.SERVICEACTIVATIONORDERToolStripMenuItem.Text = "SERVICE ACTIVATION ORDER"
         '
         'ToolStripSeparator20
         '
         Me.ToolStripSeparator20.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator20.Name = "ToolStripSeparator20"
-        Me.ToolStripSeparator20.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator20.Size = New System.Drawing.Size(339, 6)
         '
         'SELFSERVICEPORTALToolStripMenuItem
         '
         Me.SELFSERVICEPORTALToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.SELFSERVICEPORTALToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SELFSERVICEPORTALToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.SELFSERVICEPORTALToolStripMenuItem.Image = CType(resources.GetObject("SELFSERVICEPORTALToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SELFSERVICEPORTALToolStripMenuItem.Name = "SELFSERVICEPORTALToolStripMenuItem"
-        Me.SELFSERVICEPORTALToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.SELFSERVICEPORTALToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.SELFSERVICEPORTALToolStripMenuItem.Text = "SELF SERVICE PORTAL (SUPPORT)"
         '
         'ToolStripSeparator95
         '
         Me.ToolStripSeparator95.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator95.Name = "ToolStripSeparator95"
-        Me.ToolStripSeparator95.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator95.Size = New System.Drawing.Size(339, 6)
         '
         'USBEXCEPTIONToolStripMenuItem
         '
         Me.USBEXCEPTIONToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.USBEXCEPTIONToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.USBEXCEPTIONToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.USBEXCEPTIONToolStripMenuItem.Image = CType(resources.GetObject("USBEXCEPTIONToolStripMenuItem.Image"), System.Drawing.Image)
         Me.USBEXCEPTIONToolStripMenuItem.Name = "USBEXCEPTIONToolStripMenuItem"
-        Me.USBEXCEPTIONToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.USBEXCEPTIONToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.USBEXCEPTIONToolStripMenuItem.Text = "STORAGE (USB) EXCEPTION"
         '
         'ToolStripSeparator98
         '
         Me.ToolStripSeparator98.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator98.Name = "ToolStripSeparator98"
-        Me.ToolStripSeparator98.Size = New System.Drawing.Size(327, 6)
+        Me.ToolStripSeparator98.Size = New System.Drawing.Size(339, 6)
         '
         'VPNToolStripMenuItem
         '
         Me.VPNToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.VPNToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.VPNToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!)
         Me.VPNToolStripMenuItem.Image = CType(resources.GetObject("VPNToolStripMenuItem.Image"), System.Drawing.Image)
         Me.VPNToolStripMenuItem.Name = "VPNToolStripMenuItem"
-        Me.VPNToolStripMenuItem.Size = New System.Drawing.Size(330, 22)
+        Me.VPNToolStripMenuItem.Size = New System.Drawing.Size(342, 22)
         Me.VPNToolStripMenuItem.Text = "VPN"
         '
         'ToolStripSeparator8
@@ -862,115 +861,115 @@ Partial Class Form1
         'AUTOMATIONSHAREPOINTToolStripMenuItem
         '
         Me.AUTOMATIONSHAREPOINTToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.AUTOMATIONSHAREPOINTToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AUTOMATIONSHAREPOINTToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AUTOMATIONSHAREPOINTToolStripMenuItem.Image = CType(resources.GetObject("AUTOMATIONSHAREPOINTToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AUTOMATIONSHAREPOINTToolStripMenuItem.Name = "AUTOMATIONSHAREPOINTToolStripMenuItem"
-        Me.AUTOMATIONSHAREPOINTToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.AUTOMATIONSHAREPOINTToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.AUTOMATIONSHAREPOINTToolStripMenuItem.Text = "AUTOMATION HOMEPAGE (SHAREPOINT)"
         '
         'ToolStripSeparator72
         '
         Me.ToolStripSeparator72.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator72.Name = "ToolStripSeparator72"
-        Me.ToolStripSeparator72.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator72.Size = New System.Drawing.Size(417, 6)
         '
         'AUTOMATIONINSTALLGUIDEToolStripMenuItem
         '
         Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.Image = CType(resources.GetObject("AUTOMATIONINSTALLGUIDEToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.Name = "AUTOMATIONINSTALLGUIDEToolStripMenuItem"
-        Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.AUTOMATIONINSTALLGUIDEToolStripMenuItem.Text = "AUTOMATION INSTALL GUIDE"
         '
         'ToolStripSeparator120
         '
         Me.ToolStripSeparator120.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator120.Name = "ToolStripSeparator120"
-        Me.ToolStripSeparator120.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator120.Size = New System.Drawing.Size(417, 6)
         '
         'TEST1ToolStripMenuItem
         '
         Me.TEST1ToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.TEST1ToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TEST1ToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TEST1ToolStripMenuItem.Image = CType(resources.GetObject("TEST1ToolStripMenuItem.Image"), System.Drawing.Image)
         Me.TEST1ToolStripMenuItem.Name = "TEST1ToolStripMenuItem"
-        Me.TEST1ToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.TEST1ToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.TEST1ToolStripMenuItem.Text = "AUTOMATION DEVICE FARMS - HOME PAGE"
         '
         'ToolStripSeparator23
         '
         Me.ToolStripSeparator23.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator23.Name = "ToolStripSeparator23"
-        Me.ToolStripSeparator23.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator23.Size = New System.Drawing.Size(417, 6)
         '
         'CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1
         '
         Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.BackColor = System.Drawing.Color.LemonChiffon
-        Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Image = CType(resources.GetObject("CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Name = "CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1"
-        Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Size = New System.Drawing.Size(396, 22)
+        Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Size = New System.Drawing.Size(420, 22)
         Me.CHECKAUTOMATIONDEVICES5979ToolStripMenuItem1.Text = "AUTOMATION DEVICES (DEVELOPMENT)"
         '
         'ToolStripSeparator121
         '
         Me.ToolStripSeparator121.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator121.Name = "ToolStripSeparator121"
-        Me.ToolStripSeparator121.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator121.Size = New System.Drawing.Size(417, 6)
         '
         'AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem
         '
         Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Image = CType(resources.GetObject("AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Name = "AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem"
-        Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.AUTOMATIONCERTIFICATIONDEVICESToolStripMenuItem.Text = "AUTOMATION DEVICES (PRODUCTION)"
         '
         'ToolStripSeparator119
         '
         Me.ToolStripSeparator119.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator119.Name = "ToolStripSeparator119"
-        Me.ToolStripSeparator119.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator119.Size = New System.Drawing.Size(417, 6)
         '
         'TEST4ToolStripMenuItem
         '
         Me.TEST4ToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.TEST4ToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TEST4ToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TEST4ToolStripMenuItem.Image = CType(resources.GetObject("TEST4ToolStripMenuItem.Image"), System.Drawing.Image)
         Me.TEST4ToolStripMenuItem.Name = "TEST4ToolStripMenuItem"
-        Me.TEST4ToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.TEST4ToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.TEST4ToolStripMenuItem.Text = "AUTOMATION STATUS (DEVELOPMENT JENKINS)"
         '
         'ToolStripSeparator89
         '
         Me.ToolStripSeparator89.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator89.Name = "ToolStripSeparator89"
-        Me.ToolStripSeparator89.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator89.Size = New System.Drawing.Size(417, 6)
         '
         'TEST3ToolStripMenuItem2
         '
         Me.TEST3ToolStripMenuItem2.BackColor = System.Drawing.Color.LemonChiffon
-        Me.TEST3ToolStripMenuItem2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TEST3ToolStripMenuItem2.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TEST3ToolStripMenuItem2.Image = CType(resources.GetObject("TEST3ToolStripMenuItem2.Image"), System.Drawing.Image)
         Me.TEST3ToolStripMenuItem2.Name = "TEST3ToolStripMenuItem2"
-        Me.TEST3ToolStripMenuItem2.Size = New System.Drawing.Size(396, 22)
+        Me.TEST3ToolStripMenuItem2.Size = New System.Drawing.Size(420, 22)
         Me.TEST3ToolStripMenuItem2.Text = "AUTOMATION STATUS (PRODUCTION JENKINS)"
         '
         'ToolStripSeparator123
         '
         Me.ToolStripSeparator123.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator123.Name = "ToolStripSeparator123"
-        Me.ToolStripSeparator123.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator123.Size = New System.Drawing.Size(417, 6)
         '
         'AUTOMATIONHOMEPAGEToolStripMenuItem
         '
         Me.AUTOMATIONHOMEPAGEToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.AUTOMATIONHOMEPAGEToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AUTOMATIONHOMEPAGEToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.AUTOMATIONHOMEPAGEToolStripMenuItem.Image = CType(resources.GetObject("AUTOMATIONHOMEPAGEToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AUTOMATIONHOMEPAGEToolStripMenuItem.Name = "AUTOMATIONHOMEPAGEToolStripMenuItem"
-        Me.AUTOMATIONHOMEPAGEToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.AUTOMATIONHOMEPAGEToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.AUTOMATIONHOMEPAGEToolStripMenuItem.Text = "AUTOMATION PLATFORM HOMEPAGE"
         '
         'ToolStripSeparator93
@@ -978,60 +977,60 @@ Partial Class Form1
         Me.ToolStripSeparator93.BackColor = System.Drawing.Color.Snow
         Me.ToolStripSeparator93.ForeColor = System.Drawing.Color.Red
         Me.ToolStripSeparator93.Name = "ToolStripSeparator93"
-        Me.ToolStripSeparator93.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator93.Size = New System.Drawing.Size(417, 6)
         '
         'GITHUBREPOANDROMEDAToolStripMenuItem
         '
         Me.GITHUBREPOANDROMEDAToolStripMenuItem.BackColor = System.Drawing.Color.LemonChiffon
-        Me.GITHUBREPOANDROMEDAToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GITHUBREPOANDROMEDAToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GITHUBREPOANDROMEDAToolStripMenuItem.Image = CType(resources.GetObject("GITHUBREPOANDROMEDAToolStripMenuItem.Image"), System.Drawing.Image)
         Me.GITHUBREPOANDROMEDAToolStripMenuItem.Name = "GITHUBREPOANDROMEDAToolStripMenuItem"
-        Me.GITHUBREPOANDROMEDAToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.GITHUBREPOANDROMEDAToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.GITHUBREPOANDROMEDAToolStripMenuItem.Text = "GITHUB ENTERPRISE DASHBOARD"
         '
         'ToolStripSeparator90
         '
         Me.ToolStripSeparator90.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator90.Name = "ToolStripSeparator90"
-        Me.ToolStripSeparator90.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator90.Size = New System.Drawing.Size(417, 6)
         '
         'APPIUMINSPECTORToolStripMenuItem
         '
         Me.APPIUMINSPECTORToolStripMenuItem.BackColor = System.Drawing.Color.Khaki
-        Me.APPIUMINSPECTORToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.APPIUMINSPECTORToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.APPIUMINSPECTORToolStripMenuItem.Image = CType(resources.GetObject("APPIUMINSPECTORToolStripMenuItem.Image"), System.Drawing.Image)
         Me.APPIUMINSPECTORToolStripMenuItem.Name = "APPIUMINSPECTORToolStripMenuItem"
-        Me.APPIUMINSPECTORToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.APPIUMINSPECTORToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.APPIUMINSPECTORToolStripMenuItem.Text = "START APPIUM INSPECTOR"
         '
         'ToolStripSeparator87
         '
         Me.ToolStripSeparator87.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator87.Name = "ToolStripSeparator87"
-        Me.ToolStripSeparator87.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator87.Size = New System.Drawing.Size(417, 6)
         '
         'APPIUMSERVERToolStripMenuItem
         '
         Me.APPIUMSERVERToolStripMenuItem.BackColor = System.Drawing.Color.Khaki
-        Me.APPIUMSERVERToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.APPIUMSERVERToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.APPIUMSERVERToolStripMenuItem.Image = CType(resources.GetObject("APPIUMSERVERToolStripMenuItem.Image"), System.Drawing.Image)
         Me.APPIUMSERVERToolStripMenuItem.Name = "APPIUMSERVERToolStripMenuItem"
-        Me.APPIUMSERVERToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.APPIUMSERVERToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.APPIUMSERVERToolStripMenuItem.Text = "START APPIUM SERVER"
         '
         'ToolStripSeparator91
         '
         Me.ToolStripSeparator91.BackColor = System.Drawing.Color.LemonChiffon
         Me.ToolStripSeparator91.Name = "ToolStripSeparator91"
-        Me.ToolStripSeparator91.Size = New System.Drawing.Size(393, 6)
+        Me.ToolStripSeparator91.Size = New System.Drawing.Size(417, 6)
         '
         'STARTINTELLIJIDEToolStripMenuItem
         '
         Me.STARTINTELLIJIDEToolStripMenuItem.BackColor = System.Drawing.Color.Khaki
-        Me.STARTINTELLIJIDEToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.STARTINTELLIJIDEToolStripMenuItem.Font = New System.Drawing.Font("Arial Rounded MT Bold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.STARTINTELLIJIDEToolStripMenuItem.Image = CType(resources.GetObject("STARTINTELLIJIDEToolStripMenuItem.Image"), System.Drawing.Image)
         Me.STARTINTELLIJIDEToolStripMenuItem.Name = "STARTINTELLIJIDEToolStripMenuItem"
-        Me.STARTINTELLIJIDEToolStripMenuItem.Size = New System.Drawing.Size(396, 22)
+        Me.STARTINTELLIJIDEToolStripMenuItem.Size = New System.Drawing.Size(420, 22)
         Me.STARTINTELLIJIDEToolStripMenuItem.Text = "START INTELLIJ IDE"
         '
         'ToolStripSeparator7
