@@ -50,10 +50,10 @@ Partial Class Form6
         '
         'Button1
         '
-        Me.Button1.Font = New System.Drawing.Font("Arial Nova Light", 10.0!, System.Drawing.FontStyle.Bold)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!, System.Drawing.FontStyle.Bold)
         Me.Button1.Location = New System.Drawing.Point(55, 176)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(115, 23)
+        Me.Button1.Size = New System.Drawing.Size(115, 30)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "SEARCH"
         Me.Button1.UseVisualStyleBackColor = True

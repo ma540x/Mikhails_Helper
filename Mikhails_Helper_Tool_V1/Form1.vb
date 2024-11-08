@@ -2388,5 +2388,9 @@ Public Class Form1
     Private Sub IPHONEToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IPHONEToolStripMenuItem.Click
         System.Diagnostics.Process.Start("https://endoflife.date/iphone")
     End Sub
+
+    Private Sub ToolStripMenuItem6_Click(sender As Object, e As EventArgs) Handles ToolStripMenuItem6.Click
+
+    End Sub
 End Class
 
